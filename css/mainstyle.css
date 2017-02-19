@@ -18,8 +18,8 @@ background:#53a7ea;
 
 #content-pics{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .grow:hover
