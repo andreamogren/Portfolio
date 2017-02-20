@@ -42,13 +42,6 @@ span {
   color: gray;
 }
 
-
-h2 {
-  background-color: black;
-  color: #5cb897;
-  text-align: left;
-}
-
 a {
 color: white;
 text-decoration:none;
@@ -63,9 +56,9 @@ color: gray;
 }
 
 .content-pics{
-  display: block;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
 }
 
@@ -78,36 +71,27 @@ color: gray;
 }
 
 #meText {
-  color: white;
-  background-color: transparent;
-  font-size: 40px;
-  position: absolute;
-  opacity: 1;
-  bottom: 0;
-  width: 30%;
-  text-align: center;
-}
+   color: white;
+   font-size: 40px;
+   position: absolute;
+   opacity: 1;
+   bottom: 0;
+ }
 
 #projectsText {
   color: white;
-  background-color: transparent;
   font-size: 40px;
   position: absolute;
   opacity: 1;
   bottom: 0;
-  width: 90%;
-  text-align: center;
 }
 
 #contactText {
   color: black;
-  background-color: transparent;
   font-size: 40px;
   position: absolute;
   opacity: 1;
   bottom: 0;
-  width: 150%;
-  text-align: center;
 }
 
 #gif-div{
