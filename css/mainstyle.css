@@ -74,6 +74,7 @@ color: gray;
    color: white;
    font-size: 40px;
    position: absolute;
+   margin: 0 0 2% 8%;
    opacity: 1;
    bottom: 0;
  }
@@ -82,6 +83,7 @@ color: gray;
   color: white;
   font-size: 40px;
   position: absolute;
+  margin: 0 0 2% 40%;
   opacity: 1;
   bottom: 0;
 }
@@ -90,6 +92,7 @@ color: gray;
   color: black;
   font-size: 40px;
   position: absolute;
+  margin: 0 0 2% 70%;
   opacity: 1;
   bottom: 0;
 }
