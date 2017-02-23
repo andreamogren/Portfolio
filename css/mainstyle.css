@@ -128,6 +128,32 @@ text-align: center;
       font-size: 40px;
     }
 
+    #meText {
+       color: white;
+       font-size: 40px;
+       position: absolute;
+       margin-bottom: 350%;
+       opacity: 1;
+     }
+
+    #projectsText {
+      color: white;
+      font-size: 40px;
+      position: absolute;
+      margin-left: 8%;
+      margin-bottom: 180%;
+      opacity: 1;
+    }
+
+    #contactText {
+      color: black;
+      font-size: 40px;
+      position: absolute;
+      margin-left: 8%;
+      opacity: 1;
+
+    }
+
     #email {
       width: 30%;
       display: block;
