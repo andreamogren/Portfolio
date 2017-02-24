@@ -95,7 +95,7 @@ color: gray;
 }
 
 #gif-div{
-  width: 30%;
+  width: 33%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -151,7 +151,6 @@ text-align: center;
       position: absolute;
       margin-left: 8%;
       opacity: 1;
-
     }
 
     #email {
@@ -190,4 +189,32 @@ text-align: center;
       margin-left: auto;
       margin-right: auto;
     }
+}
+
+@media screen and (min-width: 1920px) {
+  #meText {
+     color: white;
+     font-size: 40px;
+     position: absolute;
+     margin-bottom: 350%;
+     margin-left: -2%;
+     opacity: 1;
+   }
+
+  #projectsText {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 0%;
+    margin-bottom: 180%;
+    opacity: 1;
+  }
+
+  #contactText {
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 2%;
+    opacity: 1;
+  }
 }
