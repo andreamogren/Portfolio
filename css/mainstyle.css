@@ -109,6 +109,13 @@ color: gray;
 text-align: center;
 }
 
+#download-button{
+  background-color: #5cb897;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
 .grow:hover
 {
         -webkit-transform: scale(1.3);
