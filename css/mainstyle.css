@@ -46,7 +46,18 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
+}
+
+#scrollDown{
+  padding-bottom: 50px;
+}
+
+#hellogif{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 3s ease;
 }
 
 h1{
@@ -74,19 +85,19 @@ span {
 #content1 {
    color: white;
    text-align: center;
-   font-size: 40px;
+   font-size: 30px;
    opacity: 1;
    background-color: #9b59b6;
-   padding: 30px;
+   padding: 20px;
    border-radius: 15px;
  }
 
 #content2 {
   color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   background-color: #16a085;
-  padding: 30px;
+  padding: 20px;
   border-radius: 15px;
   opacity: 1;
 }
@@ -94,9 +105,9 @@ span {
 #content3 {
   color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   background-color: #e74c3c;
-  padding: 30px;
+  padding: 20px;
   border-radius: 15px;
   opacity: 1;
 }
@@ -105,6 +116,7 @@ span {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 33%
 }
 
 a {
@@ -148,6 +160,7 @@ color: gray;
 
 #contactDiv {
 text-align: center;
+padding-bottom: 50px;
 }
 
 #fb{
@@ -185,9 +198,8 @@ text-align: center;
         transform: scale(1.3);
 }
 
-.shrink:hover
-{
-        -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
+@media { min-width: 1920px;
+#scrollDown {
+  padding-bottom: 100px;
+}
 }
