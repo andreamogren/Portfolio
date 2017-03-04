@@ -2,20 +2,25 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/mainstyle.css">
     <title> Andrea Mogren - Projects </title>
+    <link rel="stylesheet" href="css/mainstyle.css">
     <link rel="icon" type="image/png" href="icons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Josefin+Slab" rel="stylesheet">
   </head>
 
   <body>
-    <nav class="navigation">
-      <a href="index.html">Home |</a>
-      <a href="who-am-i.html">Who am I? |</a>
-      <a href="projects.html">Projects |</a>
-      <a href="contact.html">Contact </a>
+
+    <div id="brackets">< Front end developer ></div>
+
+    <nav>
+      <a id="who" href="who-am-i.html">Who am I? </a>
+      <a id="projects" href="projects.html">Projects </a>
+      <a id="contact" href="contact.html">Contact </a>
     </nav>
 
-    <h3 id="beta">This page is in BETA mode</h3>
+    <a href="index.html"><h1 id="myName">Andrea Mogren</a></h1>
+
+    <img width="80px" height="auto" id=commaSign src="icons/character.png">
 
     <h1>Hyper Projects</h2>
     <p>Before Hyper I had no experience of coding. During our first 7 week course Data Landscape I learned so much,
@@ -23,47 +28,40 @@
 
     <p>Looking back, I feel that I've made a lot of progress during my first time here at Hyper, and I've made sure to
     keep coding in my free time so that I can keep learning even more.
-    Right now, I am reading <a id="bookLink" href="http://www.javascriptbook.com/" target="_blank">this book.</a>
+    Right now, I am reading <a class="textLink" href="http://www.javascriptbook.com/" target="_blank">this book.</a>
     I am also planning to learn how to use node.js and how to animate with CSS soon.</p>
 
     <p>Here are some of the sites I've made so far:</p>
-
+    <br>
+    <br>
     <br>
     <br>
 
     <a href="https://andreamogren.github.io/weektwo/"><img width="100%"src="images/weektwo.png"></a>
-      <p>This was the second page I ever made, during my second week of coding. The assignment was to find some sort of
+      <p class="projectP">This was the second page I ever made, during my second week of coding. The assignment was to find some sort of
       data that we thought was interesting and then visualize it through graphs.
       We were also supposed to make it available online.
       To make these graphs, I used chart.js. It was quite challenging, seeing as I
       knew no JavaScript at all at this point, but I made it work anyway!</p>
 
-      <br>
-
     <a href="https://andreamogren.github.io/apichallenge/"><img width="100%" src="images/api.png"></a>
-      <p>I made this site together with a classmate. This week, the challenge was to use an API.
+      <p class="projectP">I made this site together with a classmate. This week, the challenge was to use an API.
       We found a Star Wars API (my partner was a massive fan) and somehow got it to work. I think
       it was a very useful experience, since I understood nothing from the beginning and thought it was going
       to be impossible to make it work, but we still did it! It's case sensitive though, but you can't have it all...</p>
 
-      <br>
-
       <a href="http://adventuring.se/categories/far-away.html"><img width="100%" src="images/adventuring.png"></a>
-      <p>The final assignment of Data Landscape was to make a site offering some kind of service that incorporated everything
+      <p class="projectP">The final assignment of Data Landscape was to make a site offering some kind of service that incorporated everything
       we'd learned so far. My group and I created Adventuring.se: a site where you can generate a random adventure to go on
       somehwere in Stockholm. This is where I learned a lot of the JavaScript I know now. We used the Google directions API,
       created our own Json file with different locations and a script where you input your location to get a random location.
       We also made it so that you can choose a category to make sure that you get an adventure that suits your needs.</p>
 
-      <br>
-
       <a href="http://internisland.io/"><img width="100%" src="images/internisland.png"></a>
-      <p>This is the most recent site that I've made. I made it together with my group during the Organic growth
+      <p class="projectP">This is the most recent site that I've made. I made it together with my group during the Organic growth
       course. It's a site that feature Hyper Island graduates their internship stories and advice. The site
       itself was made through Jekyll, which I hadn't used before. The objective of the course was to learn about
       SEO and to launch something that would be useful to us and others.</p>
-      <br>
-      <br>
 
   </body>
 </html>

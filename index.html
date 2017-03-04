@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/mainstyle.css"/>
     <title> Andrea Mogren's portfolio </title>
+    <link rel="stylesheet" href="css/mainstyle.css"/>
     <link rel="icon" type="image/png" href="icons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Josefin+Slab" rel="stylesheet">
   </head>
 
   <body>
@@ -19,28 +20,28 @@
       ga('send', 'pageview');
     </script>
 
+    <div id="brackets">< Front end developer ></div>
 
-    <nav class="navigation">
-      <a href="index.html">Home |</a>
-      <a href="who-am-i.html">Who am I? |</a>
-      <a href="projects.html">Projects |</a>
-      <a href="contact.html">Contact </a>
+    <nav>
+      <a id="who" href="who-am-i.html">Who am I? </a>
+      <a id="projects" href="projects.html">Projects </a>
+      <a id="contact" href="contact.html">Contact </a>
     </nav>
 
-    <h3 id="beta">This page is in BETA mode</h3>
+    <a href="index.html"><h1 id="myName">Andrea Mogren</h1></a>
 
-    <span><h1>Hi!</h1>
-    <p>Welcome to Andrea Mogren's portfolio, how nice of you to stop by! Here you can see what I've achieved so far at Hyper,
+    <img width="80px" height="auto" id="commaSign" src="icons/character.png">
+
+    <a href="#hellogif"><img width="60px" height="auto" id="scrollDown" src="icons/downarrow.jpg"></a>
+
+    <iframe id="hellogif" src="https://giphy.com/embed/dBgUdHwD9kEQU" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dBgUdHwD9kEQU"></a></p>
+    <span><p>Welcome to my portfolio, how nice of you to stop by! Here you can see what I've achieved so far at Hyper,
     who I am and how to contact me.</p></span>
 
-
-      <div class="content-pics">
-        <a id="who" class="fade" href="who-am-i.html"><img width="360px" height="480px" src="images/me.jpg"></a>
-        <h2 id="meText">Who am I?</h2>
-        <a id="projects" class="fade" href="projects.html"><img width="360px" height="480px" src="images/HyperIsland_05.jpg"></a>
-        <h2 id="projectsText">Projects</h2>
-        <a id="contact" class="fade" href="contact.html"><img width="360px" height="480px" src="images/bird.jpg"></a>
-        <h2 id="contactText">Contact</h2>
+      <div class="content-links">
+        <a href="who-am-i.html"><h2 id="content1" class="grow">Who am I?</h2></a>
+        <a href="projects.html"><h2 id="content2" class="grow">Projects</h2></a>
+        <a href="contact.html"><h2 id="content3" class="grow">Contact</h2></a>
       </div>
 
   </body>
