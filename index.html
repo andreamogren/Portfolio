@@ -5,6 +5,7 @@
     <title> Andrea Mogren's portfolio </title>
     <link rel="stylesheet" href="css/mainstyle.css"/>
     <link rel="icon" type="image/png" href="images/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Josefin+Slab" rel="stylesheet">
   </head>
 
@@ -32,7 +33,8 @@
 
     <img width="80px" height="auto" id="commaSign" src="images/character.png">
 
-    <a href="#hellogif"><img width="60px" height="auto" id="scrollDown" src="images/downarrow.jpg"></a>
+    <div id="scrollButton"><button type="button"><img id="button-pic" img width="60px" height="auto" src="images/downarrow.jpg"></button></div>
+    <p id="secretP"></p>
 
     <iframe id="hellogif" src="https://giphy.com/embed/dBgUdHwD9kEQU" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dBgUdHwD9kEQU"></a></p>
     <span><p>Welcome to my portfolio, how nice of you to stop by! Here you can see what I've achieved so far at Hyper,
@@ -43,6 +45,8 @@
         <a href="projects.html"><h2 id="content2" class="grow">Projects</h2></a>
         <a href="contact.html"><h2 id="content3" class="grow">Contact</h2></a>
       </div>
+
+      <script src="js/portfolio.js"></script>
 
   </body>
 </html>

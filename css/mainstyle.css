@@ -19,6 +19,20 @@ nav {
   background-color: #3dd0ac;
     }
 
+button {
+  margin-bottom: 100px;
+  background-color: white;
+  border-radius: 15px;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 15px;
+  border: none;
+}
+
+#secretP {
+  padding: 100px;
+  color: white;
+}
+
 #who{
   padding-right: 25px;
 }
@@ -47,10 +61,6 @@ nav {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 100px;
-}
-
-#scrollDown{
-  padding-bottom: 50px;
 }
 
 #hellogif{
