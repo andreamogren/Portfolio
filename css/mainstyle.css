@@ -59,6 +59,14 @@ color: gray;
   z-index: 2;
 }
 
+#brackets a{
+  color: white;
+}
+
+#brackets a:hover {
+color: gray;
+}
+
 #myName {
   font-family: 'Josefin Slab', serif;
   font-size: 60px;
@@ -154,7 +162,6 @@ img[src*="cryptomonitor"]{
 .gif{
   display: block;
   margin: 0 auto;
-  width: 33.3%
 }
 
 /******* Contact styles ******/
@@ -213,9 +220,10 @@ padding-bottom: 50px;
 }
 
 /******* Media queries ******/
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   nav {
-    font-size: 35px;
+    font-size: 40px;
+    text-align: center;
   }
 
   p {
@@ -223,13 +231,29 @@ padding-bottom: 50px;
   }
 
   #brackets {
-    font-size: 35px;
+    display: none;
   }
 
   #scrollButton {
     display: none;
   }
 
+  .content-links{
+    width: 60%;
+  }
+
+}
+
+@media (min-width: 700px) and (orientation: landscape) {
+  #brackets {
+    font-size: 35px;
+    display: block;
+  }
+
+  nav {
+    font-size: 35px;
+    text-align: right;
+  }
 }
 
 @media (min-width: 1120px) {
@@ -242,10 +266,6 @@ padding-bottom: 50px;
     box-sizing: border-box;
     display: inline-block;
     margin-right: 20px;
-  }
-
-  .gifs {
-    /**/
   }
 
 }
